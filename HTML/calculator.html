@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://pages.github.com/favicon.ico">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <title>Calculator</title>
+    </head>
+
+    <body class="bg-purple">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-tomato">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/contact.html">Contact</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/record.html">Record</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HTML/calculator.html">Calculator</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="col-4 ml-auto mr-auto card mt-5 p-0 shadow">
+            <div class="card-header text-white bg-gray">
+                <h3>My Calculator App</h3>
+            </div>
+            <div class="card-body">
+                <form class="font-weight-bold calculator">
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <label for="first">First Number</label>
+                            <input type="text" class="form-control" id="first" placeholder="">
+                        </div>                       
+                        <div class="col-md-6 form-group">
+                            <label for="second">Second Number</label>
+                            <input type="text" class="form-control" id="second" placeholder="">
+                        </div>
+                        
+                    </div>
+                        
+                    <div class="form-group">
+                        <label for="result">Result</label>
+                        <input type="text" class="form-control" id="result" readonly>
+                    </div>
+                
+                    <div class="form-row">
+                        <input type="button" value="Add" class="btn btn-success col-2 m-auto" data-op = "+">
+                        <input type="button" value="Subtract" class="btn btn-dark col-2 m-auto" data-op= "-">
+                        <input type="button" value="Divide" class="btn btn-light col-2 m-auto" data-op="/">
+                        <input type="button" value="Multiply" class="btn btn-primary col-2 m-auto" data-op="*">
+                        <input type="button" value="Modulus" class="btn btn-danger col-2 m-auto" data-op="%">
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <h6 class="text-center text-black-50"> &copy; CodeLearners Cohort 2</h6>
+            </div>
+
+        <script src="../bootstrap/jquery/jquery.js"></script>
+        <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../JS/calculator.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,35 @@
+.bg-purple {
+    background-color: #a24bca;
+}
+
+.bg-gray {
+    background-color: #cccccc;
+}
+
+.bg-tomato{
+    background-color: tomato;
+}
+
+.text-dodger {
+    color: dodgerblue;
+}
+
+.form-control {
+  border-radius: 0;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid #dddddd;
+}
+
+.nav-item{
+    background-color: blue;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.paragraph::first-line{
+    color: white;
+}
+
